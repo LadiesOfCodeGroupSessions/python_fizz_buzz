@@ -6,7 +6,15 @@ def fb(x):
         result += "Buzz"
     if result != "":
         return result
-    return x
-    
+    return str(x)
+
+
 def fblist(nums):
-    pass 
+    result = ""
+    for num in nums:
+        result += fb(num) + ","
+
+    index = len(result)-1
+    result = result[:index]
+
+    return result
