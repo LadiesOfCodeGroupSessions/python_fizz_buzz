@@ -7,3 +7,6 @@ def fb(x):
     if result != "":
         return result
     return x
+    
+def fblist(nums):
+    pass 
