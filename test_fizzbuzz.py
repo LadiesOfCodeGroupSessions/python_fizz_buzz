@@ -1,4 +1,4 @@
-from fizzbuzz import inc 
+from fizzbuzz import fb
 
-def test_answer():
-    assert inc(3) == 5
+def test_returns_one():
+    assert fb(1) == 1
